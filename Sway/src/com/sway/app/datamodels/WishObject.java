@@ -6,10 +6,13 @@ import java.util.Date;
 public class WishObject {
 
 	long wishID;
-	long merchantID;
 	String productName;
 	URL productURL;
 	String merchantName;
+	double price;
+	
+	long merchantID;
+	
 	Date whenCreated;
 	Date whenExpires;
 	
