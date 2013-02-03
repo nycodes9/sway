@@ -13,8 +13,8 @@ public class WishObject extends StackMobModel{
 	
 	String wishID;
 	String productName;
-	URL productURL;
-	URL productImageURL;
+	String productURL;
+	String productImageURL;
 	
 	String merchantID;
 	String merchantName;
@@ -35,10 +35,10 @@ public class WishObject extends StackMobModel{
 	public void setProductName(String productName) {
 		this.productName = productName;
 	}
-	public URL getProductURL() {
+	public String getProductURL() {
 		return productURL;
 	}
-	public void setProductURL(URL productURL) {
+	public void setProductURL(String productURL) {
 		this.productURL = productURL;
 	}
 	public String getMerchantName() {
@@ -71,10 +71,10 @@ public class WishObject extends StackMobModel{
 	public void setWhenExpires(Date whenExpires) {
 		this.whenExpires = whenExpires;
 	}
-	public URL getProductImageURL() {
+	public String getProductImageURL() {
 		return productImageURL;
 	}
-	public void setProductImageURL(URL productImageURL) {
+	public void setProductImageURL(String productImageURL) {
 		this.productImageURL = productImageURL;
 	}
 }
